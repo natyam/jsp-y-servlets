@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1> HOLA MUNDO EL TIEMPO EN EL SERVIDOR ES <%= new java.util.Date() %></h1>
+convirtiendo a <%= new String("mayuscula").toUpperCase() %>
+<br>
+calculando 
+4*123= <%= 4*123 %>
+<br>
+<br>
+boolean 23>123? <%= 23>123 %>
+</body>
+</html>
